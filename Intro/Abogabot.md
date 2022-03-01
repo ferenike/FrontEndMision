@@ -1,5 +1,4 @@
-# FrontEndMision
-## Proyecto abogabot 
+# Proyecto abogabot 
 ###### DESCRIPCIÓN GENERAL DEL REQUERIMIENTO
 Fecha de solicitud : 28/02/2022
 
@@ -47,3 +46,9 @@ La página debe de ser responsive para poderla ver desde el celular.
 La preferencia de colores del cliente es azul marino y blanco, pero acepta propuestas.
 
 ###### ANÁLISIS DE REQUISITOS Y REQUERIMIENTOS 
+
+###### FASE DE PLANEACIÓN Y GERENCIA DEL PROYECTO
+
+###### LEVANTAMIENTO DEL REQUERIMIENTO DETALLADO
+
+###### DISEÑO DE LA ARQUITECTURA DE SOLUCIÓN 
