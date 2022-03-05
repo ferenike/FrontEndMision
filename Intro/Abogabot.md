@@ -1,66 +1,23 @@
-# Proyecto abogabot 
-###### DESCRIPCIÓN GENERAL DEL REQUERIMIENTO
-Fecha de solicitud : 28/02/2022
+# Caso: Abogabot 
+
+###### Descripción:
+
+Es un despacho de abogados que quiere automatizar las demandas de sus clientes, esto lo harán a traves de una página web llenando un formulario.
 
 
-Rsponsables de la Solicitud : Alternativa Legal
-###### FASE DE FORMALIZACIÓN
-Descripción de la solicitud
 
-**Usuario Solicitante**
+* Al momento de llenar el formulario se manda al proceso de pago para finalizar la transacción.
 
+- Para dar seguimiento a su demanda, el cliente crea una cuenta en la plataforma y verá el seguimiento de cada una de las actualizaciones del proceso legal.
 
-El despacho de abogados “Alternativa Legal” quiere automatizar las demandas de sus clientes, a través de una página web llenando un formulario.
+- El administrador del sitio recbe la notificación de una nueva demanda y con los datos llenados del formulario se crea automaticamente el documento legal en formato word para empezar el proceso.
 
-1.	Al momento de llenar el formulario se manda al proceso de pago para finalizar la transacción.
-2.	Para dar seguimiento a su demanda, el cliente crea una cuenta en la plataforma y verá el seguimiento de cada una de las actualizaciones del proceso legal.
-3.	El administrador del sitio recibe la notificación de una nueva demanda y con los datos llenados del formulario se crea automáticamente el documento legal en formato Word para empezar el proceso.
-4.	El administrador recibe el pago y debe de ser capaz de verlo en un dashboard para ver la cantidad de ingresos recibidos.
-5.	El administrador actualiza el proceso de la demanda y agrega comentarios en cada paso del proceso.
-6.	Al usuario le llegan correos de notificación para saber el avance de su proceso.
-7.	La página debe de ser responsive para poderla ver desde el celular.
-8.	La preferencia de colores del cliente es azul marino y blanco, pero acepta propuestas.
+- El administrador recibe el pago y debe de ser capaz de verlo en un dashboard para ver la cantidad de ingresos recibidos.
 
-**Líder Funcional**
+- El administrador actualiza el proceso de la demanda y agrega comentarios en cada paso del proceso.
 
-El despacho de abogados “Alternativa Legal” quiere automatizar las demandas de sus clientes.
+- Al usuario le llegan correos de notificación para saber el avance de su proceso.
 
-Creación de una página web donde:
+- La página debe de ser responsive para poderla ver desde el celular.
 
-*El cliente* 
-1.	Crea una cuenta en la plataforma.
-2.	Llena el formulario de demanda
-3.	Se manda al proceso de pago para finalizar la transacción
-4.	Para dar seguimiento a su demanda verá el seguimiento de cada una de las actualizaciones del proceso legal y le llegan correos de notificación para saber el avance de su proceso.
-
-*El administrador del sitio*
-1.	Recibe la notificación de una nueva demanda 
-2.	Con los datos llenados del formulario se crea automáticamente el documento legal en formato Word para empezar el proceso.
-3.	Recibe el pago y debe de ser capaz de verlo en un dashboard para ver la cantidad de ingresos recibidos.
-4.	Actualiza el proceso de la demanda y agrega comentarios en cada paso del proceso.
-
-
-La página debe de ser responsive para poderla ver desde el celular.
-
-
-La preferencia de colores del cliente es azul marino y blanco, pero acepta propuestas.
-
-###### ANÁLISIS DE REQUISITOS Y REQUERIMIENTOS 
-
-**Público objetivo**
-
-| Perfil demográfico | Perfil Geográfico | Perfil Psicográfico | Identificadores |
-| ------------- | ------------- | ------------- | ------------- |
-| Entre 20 y 30 años  | México  | Responsabilidad, Honradez, Compromiso, Ética, Dignidad, Laboriosidad |
-| Género indistinto | Puebla  | Actitud positiva, racional/analítica, confianza |
-| Empleo indistinto | Puebla | | |
-| Sueldo mayor a 10,000 mensuales | | |
-Estado civil indistinto | | | 
-
-visita https://miro.com/app/board/uXjVOJZ5EVo=/?invite_link_id=57291358318
-
-###### FASE DE PLANEACIÓN Y GERENCIA DEL PROYECTO
-
-###### LEVANTAMIENTO DEL REQUERIMIENTO DETALLADO
-
-###### DISEÑO DE LA ARQUITECTURA DE SOLUCIÓN 
+- La preferncia de colores del cliente es azul marino y blanco, pero acepta propuestas.
