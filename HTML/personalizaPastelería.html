@@ -1,0 +1,162 @@
+<!DOCTYPE html><!--Para que el navegador lo interprete-->
+<html lang="en"><!--lenguaje que se vaa a demostrar-->>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Base Html</title>
+    <link rel="styleshhet" href=""> <!--para importar archivos: css-->
+    <style>
+                body {
+            font-family: Arial, Helvetica, sans-serif;
+            text-align: center;
+            color: #000000;
+            background-color: #EFD2D7 ;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>¡Perzonaliza tu flork cake!</h1>
+    <table align="center">
+        <tr>
+            <td>
+                <label for="Input1">Tu nombre</label><br>
+                <input type="text" id="Nombre" name="Nombre"><br><br>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label for="tel1">Tu teléfono</label><br>
+                <input type="tel" id="tel1" name="tel1" maxlength="10"><br><br>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label for="correo1">Tu correo</label><br>
+                <input type="email" id="correo1" name="correo1"><br><br><br>
+            </td>
+        </tr>
+    </table>
+    
+    <hr>
+    <h2 align="center">Selección de sabor para bizcocho</h2><br>
+    <table align="center">
+        <tr>
+            <td> <input type="radio" id="Vainilla" name="bizcocho" value="Vainilla">
+                <label for="Vainilla">Vainilla</label>
+            </td>
+            <td>$100</td>
+        </tr>
+        <tr>
+            <td><input type="radio" id="Chocolate" name="bizcocho" value="Chocolate">
+                <label for="Chocolate">Chocolate</label>
+            </td>
+            <td>$150</td>
+        </tr>
+        <tr>
+            <td><input type="radio" id="Fresa" name="bizcocho" value="Fresa">
+                <label for="Fresa">Fresa</label>
+            </td>
+            <td>$150</td>
+        </tr>
+    </table>
+    <hr>
+    <h2 align="center">Selección de sabor para relleno</h2><br>
+    <table align="center">
+        <tr>
+            <td>    <input type="checkbox" id="Mermelada" name="Mermelada" value="Mermelada">
+                    <label for="Mermelada">Mermelada</label>
+            </td>
+            <td>    <br>  <br><br>
+                    <input type="checkbox" id="MFresa" name="MFresa" value="MFresa">
+                    <label for="MFresa">Fresa</label><br>
+                    <input type="checkbox" id="MZarzamora" name="MZarzamora" value="MZarzamora">
+                    <label for="MZarzamora">Zarzamora</label><br>
+                    <input type="checkbox" id="MDurazno" name="MDurazno" value="MDurazno">
+                    <label for="MDurazno">Durazno</label><br>
+            </th>
+            <td>$100</th>
+        </tr>
+        <tr>
+            <td>    <input type="checkbox" id="Ganache" name="Ganache" value="Ganache">
+                    <label for="Ganache">Ganache</label>
+            </td>
+            <td> </td>
+            <td>$100</th>
+        </tr>
+        <tr>
+            <td>    <input type="checkbox" id="Chantilly" name="Chantilly" value="Chantilly">
+                    <label for="Chantilly">Chantilly</label>
+            </td>
+            <td> </td>
+            <td>$100</th>
+        </tr>
+        <tr>
+            <td>    <input type="checkbox" id="Dulceleche" name="Dulceleche" value="Dulceleche">
+                    <label for="Dulceleche">Dulce de leche</label>
+            </td>
+            <td> </td>
+            <td>$100</th>
+        </tr>
+        <tr>
+            <td>    <input type="checkbox" id="Cremafrutas" name="Cremafrutas" value="Cremafrutas">
+                    <label for="Cremafrutas">Crema de frutas</label>
+            </td>
+            <td> <br>  <br><br>
+                <input type="checkbox" id="Fresa" name="Fresa" value="Fresa">
+                <label for="Fresa">Fresa</label><br>
+                <input type="checkbox" id="Zarzamora" name="Zarzamora" value="Zarzamora">
+                <label for="Zarzamora">Zarzamora</label><br>
+                <input type="checkbox" id="Durazno" name="Durazno" value="Durazno">
+                <label for="Durazno">Durazno</label><br>
+            </td>
+            <td>$100</th>
+        </tr>
+    </table>
+    <hr>
+    <h2 align="center">Selección de cobertura</h2><br>
+    <table align="center">
+        <tr>
+            <td> <input type="radio" id="Caramelo" name="cobertura" value="Caramelo">
+                <label for="Caramelo">Caramelo</label>
+            </td>
+            <td>$100</td>
+        </tr>
+        <tr>
+            <td><input type="radio" id="MG" name="cobertura" value="MG">
+                <label for="MG">Mantequilla con glaseado</label>
+            </td>
+            <td>$150</td>
+        </tr>
+        <tr>
+            <td><input type="radio" id="Frutas" name="cobertura" value="Frutas">
+                <label for="Frutas">Frutas</label>
+            </td>
+            <td>$150</td>
+        </tr>
+        <tr>
+            <td><input type="radio" id="Chantilly" name="cobertura" value="Chantilly">
+                <label for="Chantilly">Chantilly</label>
+            </td>
+            <td>$150</td>
+        </tr>
+    </table>
+    <hr>
+    <h2>¿Flork especial? sube una imagen</h2><br>
+    <input type="file" id="archivo1" name="archivo1" multiple><br><br>
+    <hr>
+    <h2>¿Cubierta de color especial?</h2><br>
+    <input type="color" id="color1" name="color1"><br><br>
+    <hr>
+    <h2>¿Para cuántas personas?</h2>
+    <label for="vol">Entre 5 y 50</label><br>
+    <input type="range" id="vol" name="vol" min="5" max="50"><br>
+    <hr>
+    <h2>¿Cuándo?</h2><br>
+    <input type="datetime-local" id="fecha2" name="fecha2"><br>
+
+    <hr>
+    <input type="button" id="boton1" name="boton1" value="Enviar" onclick="alert('Pedido enviado');"><br><br>
+</body>
+</html>
